@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui;
+  background: #ddffff;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.ribbon {
+  stroke: #ffe1f6;
+}
+.ribbon--scoll {
+  margin: 10rem 0;
+}
+.ribbon__text {
+  text-transform: uppercase;
+  fill: #fff;
+  paint-order: stroke fill;
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: 8px;
+}
+
+.ribbon__text {
+  fill: black;
+  /* base text */
+}
+
+.ribbon__text .star {
+  fill: white;
+  /* star color */
+  baseline-shift: -40%;
+  /* tweak this value up/down until it lines up */
+}
